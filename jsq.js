@@ -4,8 +4,8 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^https:\/\/authcode.qunhongtech.com\/(\/auth\/verifyNoticeApi|auth\/verifyAuthCodeApi|\/user\/heartbeatServerStateApi) url script-response-body duolaAmeng.js
-^http[s]?:\/\/authcodebackup.qunhongtech.com\/(\/auth\/verifyNoticeApi|auth\/verifyAuthCodeApi|\/user\/heartbeatServerStateApi) url script-response-body duolaAmeng.js
+^https:\/\/authcode.qunhongtech.com\/(\/auth\/verifyNoticeApi|auth\/verifyAuthCodeApi|\/user\/heartbeatServerStateApi) url script-response-body https://raw.githubusercontent.com/Shouzaizai/Quantumult-X/main/jsq.js
+^http[s]?:\/\/authcodebackup.qunhongtech.com\/(\/auth\/verifyNoticeApi|auth\/verifyAuthCodeApi|\/user\/heartbeatServerStateApi) url script-response-body https://raw.githubusercontent.com/Shouzaizai/Quantumult-X/main/jsq.js
 [mitm] 
 hostname = *.qunhongtech.*
 
