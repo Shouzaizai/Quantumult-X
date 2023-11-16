@@ -3,7 +3,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/api.xunyou.mobi\/api\/v1\/android\/sessions.+$ url script-response-body xunyou.js
+^http[s]?:\/\/api.xunyou.mobi\/api\/v1\/android\/sessions.+$ url script-response-body https://raw.githubusercontent.com/Shouzaizai/Quantumult-X/main/xunyou.js
 [mitm] 
 hostname = *.xunyou.*
 
